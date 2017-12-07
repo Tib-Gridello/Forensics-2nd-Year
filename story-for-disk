@@ -1,0 +1,88 @@
+Suspects:
+ 
+Colonel Mustard
+Mrs White
+Reverend Green
+Professor Plum
+Mrs. Peacock
+
+Weapons
+ 
+Knife
+Taser
+Colt
+Poison
+Medicine
+ 
+Goal:
+ 
+Find the murderer, the weapon and the reason behind the murder
+ 
+Relations between suspects and victim:
+ 
+Colonel Mustard’s is married with the victim
+Reverend Green is the lover
+Mrs White is the Cop a friend of peacock
+Professor Plum doctor 
+Mrs Peacock Dance teacher 
+
+Scenario:
+
+La victime a été trouvée qq part inconsciente, elle a été envoyée à l’hôpital où elle est décédée dans la nuit. 
+
+
+Professor Plum wrote a medical record about the victim ( she is cardiac ).
+Victim is sick (toxoplasmosis) and pregnant 
+Mrs White lost her taser
+Murderer kill victim with taser of the cop after reading medical record.
+
+La victime a besoin d’argent pour payer les médicaments et les honoraires du médecin. Elle emprunte de l’oseille à son amie Mrs Peacock. Peacock accepte et lui file des tunes. 
+
+
+
+
+
+
+
+
+
+
+Clues:
+
+Text with a thorough description of the toxoplasmosis and its consequences
+Ordonnance pour des médocs pour les pédales de cardiaque 
+Un tableur excel avec les entrés/sorties des armes et des personnes 
+SMS de Peacock qui rejoint sa meuf au boulot
+Relevé de compte de la victime qui utilise l’argent de Peacock pour payer ses médocs. Dans le relevé de compte on voit une énorme rentrée d’argent avec les noms des comptes
+Pour s’inscrire à la dance il faut donner ses fichiers médicaux 
+Lettres d’amour entre lover et victime
+Email du docteur qui dit qu;il faut prendre rendez vous pour lui dire qu’elle est malade
+
+
+
+THE SOLUTION:
+
+Why? Parce qu’elle lui devait des thunes
+How? Avec le taser, elle crève 2 jours après le coup de shlass
+Who ? Peacock 
+Implementation
+Recherche mot clé “weapons” → emmener liste d’armes disponibles
+
+
+Faire découvrir les dates des documents pour brouiller les pistes
+
+·      ·        Logical Analysis:
+i.        An examination of all allocated ﬁles and directory structures; → fichier medicaux,emails, lettres 
+ii.      The identiﬁcation of unidentiﬁed/misrepresented ﬁle types based on internal signatures; → Pour s’inscrire à la dance→ n’importe quel choc électrique pourrait la tuer 
+
+ 
+·        Physical Analysis:   	
+i.        An examination of all unallocated (deleted) ﬁles; → trouver le dernier releve de compte et voir que peacock devait de l’argent a la victime → recurence sauf un seul
+10 comptes ( dont celui de peacock)
+
+ii.      //Search for the occurrence of the string ‘weapons’ (case insensitive); → L’arme du crime
+iii.     Creation of a time line of ﬁle activity (based on the modiﬁed, access and change times) in order to reconstruct events and detect anomalous behaviour. → tout les documents dates de 2015 un seul date de 2017 une semaine avant la mort → lien numero compte et noms.
+9 comptes anciens plus un nouveau qui été crée 1 mois avant pour recevoir les sous de la victime.
+
+
+
